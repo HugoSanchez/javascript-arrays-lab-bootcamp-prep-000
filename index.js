@@ -22,3 +22,7 @@ function destructivelyRemoveFirstKitten(){
   return kittens
 }
 
+function appendKitten(name){
+  kittens2 = kittens.unshift(name)
+  return kittens2
+}
